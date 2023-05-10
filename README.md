@@ -49,7 +49,5 @@ Now we will observe Internet Control Message Protocol(ICMP) traffic between our 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Our next observation will be of SSH traffic.  SSH, or Secure Shell, is a network communication protocol that allows two computers to communicate.  Back in your Windows virtual machine, open up Wireshark again and filter for ssh traffic.  There should be no current traffic.  Open PowerShell again.  If your continuous ping from the last step is still running, press _control_ -_c_ to end the process.  We will now SSH into our Ubuntu machine.  At the prompt in PowerShell, type _ssh < your-Ubuntu-machine-username >@< your-Ubuntu-machine-private-IP-address >  (enter your own Ubuntu username and IP address, and disregard the inequality signs).  At the next prompt type _yes_ and then enter the password you created for your Ubuntu machine.  As a warning, nothing will show when you type in your password, just type it in and hit enter.  If it doesn’t work, try again.  We should now see a good deal of traffic in Wireshark.  We are logged into our Ubuntu machine and can enter Linux commands.  
 <br />
