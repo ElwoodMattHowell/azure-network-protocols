@@ -59,7 +59,7 @@ Our next observation will be of SSH traffic.  SSH, or Secure Shell, is a network
 </p>
 
 
-Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or DHCP, is a client/server protocol that automatically provides an Internet Protocol host with its IP address and other related configuration information such as the subnet mask and default gateway.  We will observe this traffic by issuing our virtual machine a new IP address.  Back in Wireshark, filter by DHCP or tcp.port == 
+Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or DHCP, is a client/server protocol that automatically provides an Internet Protocol host with its IP address and other related configuration information such as the subnet mask and default gateway.  We will observe this traffic by issuing our virtual machine a new IP address.  Back in Wireshark, filter by DHCP, tcp.port == 67, or tcp.port == 68.  Open Powershell.  At the command prompt, type _ipconfig /renew_.  Our virtual machine will be issued a new IP address and you will se DHCP traffic in Wireshark.
 <br />
 
 <p>
