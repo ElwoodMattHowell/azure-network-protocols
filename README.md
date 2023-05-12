@@ -49,5 +49,23 @@ Now we will observe Internet Control Message Protocol(ICMP) traffic between our 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Our next observation will be of SSH traffic.  SSH, or Secure Shell, is a network communication protocol that allows two computers to communicate.  Back in your Windows virtual machine, open up Wireshark again and filter for ssh traffic.  There should be no current traffic.  Open PowerShell again.  If your continuous ping from the last step is still running, press _control_ -_c_ to end the process.  We will now SSH into our Ubuntu machine.  At the prompt in PowerShell, type _ssh < your-Ubuntu-machine-username >@< your-Ubuntu-machine-private-IP-address >  (enter your own Ubuntu username and IP address, and disregard the inequality signs).  At the next prompt type _yes_ and then enter the password you created for your Ubuntu machine.  As a warning, nothing will show when you type in your password, just type it in and hit enter.  If it doesn’t work, try again.  We should now see a good deal of traffic in Wireshark.  We are logged into our Ubuntu machine and can enter Linux commands.  
+
+
+Our next observation will be of SSH traffic.  SSH, or Secure Shell, is a network communication protocol that allows two computers to communicate.  Back in your Windows virtual machine, open up Wireshark again and filter for ssh traffic.  There should be no current traffic.  Open PowerShell again.  If your continuous ping from the last step is still running, press _control_ -_c_ to end the process.  We will now SSH into our Ubuntu machine.  At the prompt in PowerShell, type _ssh < your-Ubuntu-machine-username >@< your-Ubuntu-machine-private-IP-address >  (enter your own Ubuntu username and IP address, and disregard the inequality signs).  At the next prompt type _yes_ and then enter the password you created for your Ubuntu machine.  As a warning, nothing will show when you type in your password, just type it in and hit enter.  If it doesn’t work, try again.  We should now see a good deal of traffic in Wireshark.  We are logged into our Ubuntu machine and can enter Linux commands.  To close the connection type _exit_. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or DHCP, is a client/server protocol that automatically provides an Internet Protocol host with its IP address and other related configuration information such as the subnet mask and default gateway.
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+Now we will take a look at DNS traffic.  DNS, or the Domain Name System, translates human readable domain names to machine readable IP addresses.  Back in Wireshark, filter for DNS traffic only.  Now open Powershell and using _nslookup_ find google.com and disney.com's IP addresses respectively.  At the command prompt, simply type `_nslookup www.disney.com_` and it will return the IP addresses associated with disney.com.
 <br />
