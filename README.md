@@ -67,7 +67,7 @@ Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or D
 </p>
 
 
-Now we will take a look at DNS traffic.  DNS, or the Domain Name System, translates human readable domain names to machine readable IP addresses.  Back in Wireshark, filter for DNS traffic only.  Now open Powershell and using _nslookup_ find google.com and disney.com's IP addresses respectively.  At the command prompt, simply type `_nslookup www.disney.com_` and it will return the IP addresses associated with disney.com.
+Now we will take a look at DNS traffic.  DNS, or the Domain Name System, translates human readable domain names to machine readable IP addresses.  Back in Wireshark, filter for DNS, or tcp.port == 53, traffic only.  Now open Powershell and using _nslookup_ find google.com and disney.com's IP addresses respectively.  At the command prompt, simply type `_nslookup www.disney.com_` and it will return the IP addresses associated with disney.com.
 <br />
 
 <p>
@@ -75,5 +75,5 @@ Now we will take a look at DNS traffic.  DNS, or the Domain Name System, transla
 </p>
 
 
-The final bit of traffic we will look at will be RDP traffic.  Remote desktop protocol (RDP) is a secure network communications protocol developed by Microsoft. It enables network administrators to remotely diagnose problems that individual users encounter and gives users remote access to their physical work desktop computers.  The port number for RDP is 3389.  In Wireshark, filter by RDP or port number.  You should immediately be spammed by traffic.  The reason?  We are using RDP to connect to our virtual machine.
+The final bit of traffic we will look at will be RDP traffic.  Remote desktop protocol (RDP) is a secure network communications protocol developed by Microsoft. It enables network administrators to remotely diagnose problems that individual users encounter and gives users remote access to their physical work desktop computers.  The port number for RDP is 3389.  In Wireshark, filter by RDP or by port number.  You should immediately be spammed by traffic.  The reason?  We are using RDP to connect to our virtual machine.
 <br />
