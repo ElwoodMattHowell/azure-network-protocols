@@ -69,3 +69,11 @@ Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or D
 
 Now we will take a look at DNS traffic.  DNS, or the Domain Name System, translates human readable domain names to machine readable IP addresses.  Back in Wireshark, filter for DNS traffic only.  Now open Powershell and using _nslookup_ find google.com and disney.com's IP addresses respectively.  At the command prompt, simply type `_nslookup www.disney.com_` and it will return the IP addresses associated with disney.com.
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+Now we will take a look at DNS traffic.  DNS, or the Domain Name System, translates human readable domain names to machine readable IP addresses.  Back in Wireshark, filter for DNS traffic only.  Now open Powershell and using _nslookup_ find google.com and disney.com's IP addresses respectively.  At the command prompt, simply type `_nslookup www.disney.com_` and it will return the IP addresses associated with disney.com.
+<br />
