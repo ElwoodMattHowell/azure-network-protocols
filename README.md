@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p float="left">
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/priject4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
@@ -43,7 +43,7 @@ Our first step will be to create our resources in Azure.  We will create a Windo
 <p float="left">
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/priject4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
@@ -53,7 +53,7 @@ Now we will observe Internet Control Message Protocol(ICMP) traffic between our 
 <p float="left">
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/priject4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
@@ -63,7 +63,7 @@ Our next observation will be of SSH traffic.  SSH, or Secure Shell, is a network
 <p float="left">
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/priject4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
@@ -73,7 +73,7 @@ Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or D
 <p float="left">
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/priject4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
@@ -83,7 +83,7 @@ Now we will take a look at DNS traffic.  DNS, or the Domain Name System, transla
 <p float="left">
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/priject4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
