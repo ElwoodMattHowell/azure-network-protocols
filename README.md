@@ -31,9 +31,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image1.png" height="40%" width="30%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step1-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
@@ -41,9 +41,9 @@ Our first step will be to create our resources in Azure.  We will create a Windo
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step2-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step2-image1.png" height="40%" width="30%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step2-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step2-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step2-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
@@ -51,9 +51,9 @@ Now we will observe Internet Control Message Protocol(ICMP) traffic between our 
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step3-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step3-image1.png" height="40%" width="30%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step3-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step3-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step3-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
@@ -61,9 +61,8 @@ Our next observation will be of SSH traffic.  SSH, or Secure Shell, is a network
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step4-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step4-image1.png" height="40%" width="30%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step4-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step4-image3.png" height="40%" width="25%" alt="configure rolese">
 </p>
 
 
@@ -71,9 +70,9 @@ Next up we will observe DHCP traffic.  Dynamic Host Configuration Protocol, or D
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step5-image1.png" height="40%" width="40%" alt="configure roles"/>
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step5-image1.png" height="40%" width="30%" alt="configure roles"/>
   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step5-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step5-image3.png" height="40%" width="25%" alt="configure rolese">
+   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step5-image3.png" height="40%" width="30%" alt="configure rolese">
 </p>
 
 
@@ -81,9 +80,7 @@ Now we will take a look at DNS traffic.  DNS, or the Domain Name System, transla
 <br />
 
 <p float="left">
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step6-image1.png" height="40%" width="40%" alt="configure roles"/>
-  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step6-image2.png" height="40%" width="30%" alt="configure roles">
-   <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step6-image3.png" height="40%" width="25%" alt="configure rolese">
+  <img src="https://github.com/ElwoodMattHowell/images/blob/main/project4-step6-image1.png" height="40%" width="30%" alt="configure roles"/>
 </p>
 
 
